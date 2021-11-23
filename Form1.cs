@@ -8,6 +8,10 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+/*
+ * Sarnyai Ákos 2021
+ */
+
 namespace TicTacToe
 {
     public partial class Form1 : Form
@@ -19,9 +23,28 @@ namespace TicTacToe
 
         //Alap változók definiálása
         String[] gameBoard = new string[9];
-        int currentTurn = 0;
+        int currentTurn;
         int countWinX = 0;
         int countWin0 = 0;
+
+
+        // Első játékban mindig 0 kezd, majd utána véletlenszerűen a további játékokban!
+        public void getRandomNumber() {
+            Random generateRandom = new Random();
+            int randomNumber = generateRandom.Next(0, 2); // Random szám generálás 0/1, azaz 0 vagy X játékos
+
+            //Eldől, hogy a következő játékban X vagy 0 kezd
+            if (randomNumber == 0)
+            {
+                currentTurn = 0;
+                MessageBox.Show("The first player is 0", "Let's the game begin!", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            }
+            else {
+                currentTurn = 1;
+                MessageBox.Show("The first player is X", "Let's the game begin!", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            }
+
+        }
 
 
         // Az X/0 szimbólumok számlálása
@@ -182,8 +205,8 @@ namespace TicTacToe
 
                 if (counter == 9)
                 {
-                    resetMatch();
                     MessageBox.Show("DRAW!", "We don't have a winner!!", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                    resetMatch();
                 }
 
             }
@@ -360,7 +383,7 @@ namespace TicTacToe
             button8.BackColor = System.Drawing.Color.White;
             button9.BackColor = System.Drawing.Color.White;
             gameBoard = new string[9];
-            currentTurn = 0;
+            getRandomNumber(); //Következő meccsnél már sorsolás alapján dől el ki kezd
         }
 
 
@@ -399,6 +422,8 @@ namespace TicTacToe
         {
 
         }
+
+
 
     }
 }

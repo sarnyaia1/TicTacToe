@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Sarnyai Ákos\\source\\repos\\TicTacToe\\TicTacToe.csproj": {}
+    "C:\\Users\\Sarnyai Ákos\\Documents\\GitHub\\TicTacToe-GUI\\TicTacToe.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Sarnyai Ákos\\source\\repos\\TicTacToe\\TicTacToe.csproj": {
+    "C:\\Users\\Sarnyai Ákos\\Documents\\GitHub\\TicTacToe-GUI\\TicTacToe.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Sarnyai Ákos\\source\\repos\\TicTacToe\\TicTacToe.csproj",
+        "projectUniqueName": "C:\\Users\\Sarnyai Ákos\\Documents\\GitHub\\TicTacToe-GUI\\TicTacToe.csproj",
         "projectName": "TicTacToe",
-        "projectPath": "C:\\Users\\Sarnyai Ákos\\source\\repos\\TicTacToe\\TicTacToe.csproj",
+        "projectPath": "C:\\Users\\Sarnyai Ákos\\Documents\\GitHub\\TicTacToe-GUI\\TicTacToe.csproj",
         "packagesPath": "C:\\Users\\Sarnyai Ákos\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Sarnyai Ákos\\source\\repos\\TicTacToe\\obj\\",
+        "outputPath": "C:\\Users\\Sarnyai Ákos\\Documents\\GitHub\\TicTacToe-GUI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Sarnyai Ákos\\AppData\\Roaming\\NuGet\\NuGet.Config",

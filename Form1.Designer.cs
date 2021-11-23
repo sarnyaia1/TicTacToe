@@ -159,7 +159,7 @@ namespace TicTacToe
             // 
             this.resetFields.BackColor = System.Drawing.Color.White;
             this.resetFields.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.resetFields.Location = new System.Drawing.Point(142, 447);
+            this.resetFields.Location = new System.Drawing.Point(142, 462);
             this.resetFields.Name = "resetFields";
             this.resetFields.Size = new System.Drawing.Size(312, 42);
             this.resetFields.TabIndex = 9;
@@ -220,7 +220,7 @@ namespace TicTacToe
             // 
             this.resetGame.BackColor = System.Drawing.Color.White;
             this.resetGame.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.resetGame.Location = new System.Drawing.Point(142, 495);
+            this.resetGame.Location = new System.Drawing.Point(142, 510);
             this.resetGame.Name = "resetGame";
             this.resetGame.Size = new System.Drawing.Size(312, 42);
             this.resetGame.TabIndex = 40;
@@ -233,7 +233,7 @@ namespace TicTacToe
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Gray;
-            this.ClientSize = new System.Drawing.Size(587, 574);
+            this.ClientSize = new System.Drawing.Size(578, 580);
             this.Controls.Add(this.resetGame);
             this.Controls.Add(this.displayScore0);
             this.Controls.Add(this.displayScoreX);
